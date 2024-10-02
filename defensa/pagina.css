@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.log{
+    background-color: darkgreen;
+    color: black;
+    text-align: left;
+    width:100%;
+    height: 50px;
+
+}
+.nav1{
+    display: flex;
+    background-color: black;
+    background-size: cover;
+    padding: 20px;
+    justify-content: right;
+}
+.nav1 a{
+    border: 10px;
+}
+.titulo{
+    justify-content: center;
+    display:flex;
+    height: 500px;
+    background-image: url(WhatsApp\ Image\ 2024-09-10\ at\ 00.03.51.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h1{
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding: 140px;
+}
+.recuadros{
+    display: flex;
+    flex-direction: row;
+}
+.uno{
+    background-color: aquamarine;
+    width: 50%;
+    height: 350px;
+}
+.dos{
+    background-color: brown;
+    width: 50%;
+    height: 350px;
+    text-align: center;
+}
+.tabla{
+    border-collapse: collapse;
+    margin:10px;
+    width: 300px;
+    height: 200px;
+
+}
+.tabla tr{
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
